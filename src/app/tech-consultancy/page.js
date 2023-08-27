@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
 import Portfolio from "../Portfolio";
@@ -8,6 +7,7 @@ import ContactForm from "../ContactForm";
 import { PiStrategyBold } from "react-icons/pi";
 import { LiaDigitalTachographSolid } from "react-icons/lia";
 import { GiGrowth } from "react-icons/gi";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -39,7 +39,7 @@ export const metadata = {
 const ConsultantPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <section className="text-gray-600 body-font bg-white">
         <div className="container px-5 py-6 md:py-24 mx-auto">
           <div className="text-center md:mb-20">

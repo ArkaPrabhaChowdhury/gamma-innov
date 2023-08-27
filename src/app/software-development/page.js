@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
 import Portfolio from "../Portfolio";
@@ -7,6 +6,7 @@ import ContactForm from "../ContactForm";
 import { AiOutlineSolution, AiOutlineUsergroupAdd } from "react-icons/ai";
 import { MdPayments } from "react-icons/md";
 import Featured from "../Featured";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -38,7 +38,7 @@ export const metadata = {
 const SoftwareDevelopmentPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <div>
         <section className="text-gray-600 body-font bg-white pb-12">
           <div className="container px-5 py-6 md:py-24 mx-auto">

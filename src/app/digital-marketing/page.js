@@ -1,8 +1,6 @@
 import React from "react";
-import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
-import Portfolio from "../Portfolio";
 import Featured from "../Featured";
 import ContactForm from "../ContactForm";
 import { RiSeoLine } from "react-icons/ri";
@@ -12,6 +10,7 @@ import dig1 from "../assets/work3.png";
 import dig2 from "../assets/dig2.png";
 import dig3 from "../assets/dig3.png";
 import Image from "next/image";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -43,7 +42,7 @@ export const metadata = {
 const DigitalPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <section className="text-gray-600 body-font bg-white">
         <div className="container px-5 py-6 md:py-24 mx-auto">
           <div className="text-center md:mb-20">

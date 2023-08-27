@@ -2,7 +2,7 @@
 import Image from "next/image";
 import logo from "./assets/logo.svg";
 import { Link } from "react-scroll";
-const NavBar = ({ service }) => {
+const Navbar = ({ service }) => {
   return (
     <div>
       <header className="text-gray-600 body-font bg-white">
@@ -107,4 +107,4 @@ const NavBar = ({ service }) => {
   );
 };
 
-export default NavBar;
+export default Navbar;

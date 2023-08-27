@@ -9,8 +9,8 @@ import { TbDeviceDesktopCog } from "react-icons/tb";
 import web1 from "../assets/work1.png";
 import web2 from "../assets/web2.png";
 import web3 from "../assets/web3.png";
-import NavBar from "../NavBar";
 import Image from "next/image";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -42,7 +42,7 @@ export const metadata = {
 const WebDevelopmentPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <div className="flex flex-wrap lg:px-40 bg-white">
         <div className="w-full p-4">
           <section className="text-gray-600 body-font pb-12">

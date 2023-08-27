@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
 import ContactForm from "../ContactForm";
@@ -13,6 +12,7 @@ import app1 from "../assets/work2.png";
 import app2 from "../assets/app2.png";
 import app3 from "../assets/app3.png";
 import Image from "next/image";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -44,7 +44,7 @@ export const metadata = {
 const AppDevelopmentPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <section className="text-gray-600 body-font bg-white" id="services">
         <div className="container px-5 py-6 md:py-24 mx-auto">
           <div className="text-center md:mb-20">

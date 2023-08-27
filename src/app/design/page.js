@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
 import Portfolio from "../Portfolio";
 import ContactForm from "../ContactForm";
 import Featured from "../Featured";
 import { MdOutlineDesignServices, MdOutlineWeb } from "react-icons/md";
+import Navbar from "../Navbar";
 
 export const metadata = {
   title:
@@ -37,7 +37,7 @@ export const metadata = {
 const DesignPage = () => {
   return (
     <div>
-      <NavBar service={true} />
+      <Navbar service={true} />
       <section className="text-gray-600 body-font bg-white">
         <div className="container px-5 py-6 md:py-24 mx-auto">
           <div className="text-center md:mb-20">
