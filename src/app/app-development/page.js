@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../NavBar";
 import Contact from "../Contact";
 import Bottom from "../Bottom";
-import Portfolio from "../Portfolio";
 import ContactForm from "../ContactForm";
 import Featured from "../Featured";
 import {

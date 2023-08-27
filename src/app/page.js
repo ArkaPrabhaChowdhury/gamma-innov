@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Bottom from "./Bottom";
 import Prep from "./Prep";
 import Featured from "./Featured";
-import NavBar from "./Navbar";
+import NavBar from "./NavBar";
 
 const Home = () => {
   return (

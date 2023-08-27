@@ -9,7 +9,7 @@ import { TbDeviceDesktopCog } from "react-icons/tb";
 import web1 from "../assets/work1.png";
 import web2 from "../assets/web2.png";
 import web3 from "../assets/web3.png";
-import NavBar from "../Navbar";
+import NavBar from "../NavBar";
 import Image from "next/image";
 
 export const metadata = {
