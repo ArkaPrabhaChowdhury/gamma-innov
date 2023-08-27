@@ -13,7 +13,7 @@ import {
 import app1 from "../assets/work2.png";
 import app2 from "../assets/app2.png";
 import app3 from "../assets/app3.png";
-import Image from "next/Image"
+import Image from "next/image";
 
 export const metadata = {
   title:

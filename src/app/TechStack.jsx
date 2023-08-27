@@ -5,7 +5,7 @@ import mongo from "./assets/mongo.svg";
 import php from "./assets/php.svg";
 import wordpress from "./assets/wordpress.svg";
 import java from "./assets/java.svg";
-import Image from "next/Image";
+import Image from "next/image";
 const TechStack = () => {
   return (
     <div className="pb-24 bg-white">

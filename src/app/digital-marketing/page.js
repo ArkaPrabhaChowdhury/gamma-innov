@@ -11,7 +11,7 @@ import { TbWorldShare } from "react-icons/tb";
 import dig1 from "../assets/work3.png";
 import dig2 from "../assets/dig2.png";
 import dig3 from "../assets/dig3.png";
-import Image from "next/Image"
+import Image from "next/image";
 
 export const metadata = {
   title:
